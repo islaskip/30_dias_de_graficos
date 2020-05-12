@@ -92,8 +92,8 @@ ggplot(todos_discursos, aes(x = word2, y = n)) +
   theme_ipsum_rc(subtitle_family = "Roboto Condensed") +
   theme(
     plot.margin = margin(3, 3, 4, 3, "mm"),
-    plot.title = element_text(hjust = 0.5),
-    plot.subtitle = element_text(hjust = 0.5)
+    plot.title = element_text(hjust = 0.1),
+    plot.subtitle = element_text(hjust = 0.1)
   ) +
   labs(
     title = "Chile: Comunicando la pandemia",
