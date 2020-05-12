@@ -101,7 +101,7 @@ ggplot(todos_discursos, aes(x = word2, y = n)) +
     entre el 17 de abril y el 5 de mayo",
     x = "Palabras",
     y = "Frecuencia de palabras",
-    caption = "Fuente: Prensa Presidencia"
+    caption = "Fuente de datos: Prensa Presidencia"
   )
 
 ggsave(paste0("12_05_2020_discursos_presidenciales", ".png"),
