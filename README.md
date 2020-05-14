@@ -5,5 +5,9 @@ Contribuciones a la iniciativa de [@R4DS_es](https://twitter.com/R4DS_es) en con
 * [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/codigo/2020_05_12_discursos_presidenciales.R)
 ![Día 1](graficos/12_05_2020_discursos_presidenciales.png)
 
+## Día 2: Gráfico de linea
+* [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/codigo/2020_05_13_mortalidad_infantil.R)
+![Día 1](graficos/13_05_2020_mortalidad_infantil_chile.gif)
+
 
 
