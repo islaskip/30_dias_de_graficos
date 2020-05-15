@@ -41,6 +41,7 @@ graf2 <- preguntas %>%
   ggplot(aes(pol3, group=B05)) +
   geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count") +
   scale_x_discrete(labels = c("No", "Sí"))+
+  scale_y_continuous(labels=scales::percent,breaks = seq(0, 1,.1), limits = c(0, 0.715)) +
   labs(
     title= "¿Conversa de política con su familia, pares, amigos, amigas u otras personas?",
     subtitle = "Desagregado por tramo de ingreso mensual hogar, participantes entre 15 y 29 años",
