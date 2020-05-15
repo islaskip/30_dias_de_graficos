@@ -16,6 +16,13 @@ Contribuciones a la iniciativa de [@R4DS_es](https://twitter.com/R4DS_es) en con
 
 ![Día 3](graficos/14_05_2020_educacion_superior_chile.gif)
 
+## Día 4: Gráfico de facetas
+* [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/codigo/2020_05_15_socializacion_politica.R) 
+* [Fuente de datos](http://www.injuv.gob.cl/noticias/9encuesta) 
+
+![Día 4](graficos/15_05_2020_interes_politica.png)
+![Día 4](graficos/15_05_2020_socializacion_politica.png)
+
 
 
 
