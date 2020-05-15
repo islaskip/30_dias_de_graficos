@@ -15,7 +15,7 @@ estadisticas_por_carrera_2020 <- read_excel("Universidades Chile/Buscador-estadi
 estadisticas_por_carrera_2020 <- estadisticas_por_carrera_2020[-c(249,250,251), ]
 
 
-grafico <- plot_ly(Buscador_estadisticas_por_carrera_mifuturo_2020, x = ~empleabilidad, y = ~titulados, type = 'scatter', mode = 'markers', color = ~area,
+grafico <- plot_ly(estadisticas_por_carrera_2020, x = ~empleabilidad, y = ~titulados, type = 'scatter', mode = 'markers', color = ~area,
                hoverinfo = 'text',
                text = ~paste('</br> Carrera: ', carrera,
                              '</br> Area: ', area))
