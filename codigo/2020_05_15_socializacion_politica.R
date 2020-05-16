@@ -43,7 +43,7 @@ graf2 <- preguntas %>%
   scale_x_discrete(labels = c("No", "Sí"))+
   scale_y_continuous(labels=scales::percent,breaks = seq(0, 1,.1), limits = c(0, 0.715)) +
   labs(
-    title= "¿Conversa de política con su familia, pares, amigos, amigas u otras personas?",
+    title= "¿Conversa de política con su familia, pares, amigos,\n amigas u otras personas?",
     subtitle = "Desagregado por tramo de ingreso mensual hogar, participantes entre 15 y 29 años",
     caption= "Fuente de datos: 9va Encuesta de Juventud - INJUV")+
     xlab("")+
@@ -54,7 +54,7 @@ graf2 <- preguntas %>%
 graf1
 ggsave("15_05_2020_interes_politica.png")
 graf2
-ggsave("15_05_2020_socializacion_politica.png")
+ggsave("15_05_2020_socializacion_politica.png", width= 7, height =  7)
 
 
 
