@@ -23,6 +23,13 @@ Contribuciones a la iniciativa de [@R4DS_es](https://twitter.com/R4DS_es) en con
 ![Día 4](graficos/15_05_2020_interes_politica.png)
 ![Día 4](graficos/15_05_2020_socializacion_politica.png)
 
+## Día 5: Diagrama de arco
+* [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/codigo/2020_05_16_harry_potter.R) 
+* [Fuente de datos](https://www.kaggle.com/gulsahdemiryurek/harry-potter-dataset?select=Harry+Potter+3.csv) 
+
+![Día 5](graficos/16_05_2020_harry_potter.png)
+
+
 
 
 
