@@ -34,7 +34,8 @@ barplot(top_chars, las=2, cex.names=0.7,
         border=NA, ylim=c(0,500), ylab="numero de dialogos")
 title(c("Harry Potter 1"),
       cex.main=0.9)
-# get top names
+
+## Personajes más mencionados
 who_top_chars = names(top_chars)
 
 ## Tokenizar dialogos e igualar tokens con lista de personajes. Ahora la primera columna tendra al personaje que habla y la segunda al personaje que menciona.
