@@ -29,7 +29,8 @@ Contribuciones a la iniciativa de [@R4DS_es](https://twitter.com/R4DS_es) en con
 
 ![Día 5](graficos/16_05_2020_harry_potter.png)
 
+## Día 6: Gráfico donut
+* [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/graficos/17_05_2020_pueblos_originarios.png) 
+* [Fuente de datos](http://resultados.censo2017.cl/Home/Download) 
 
-
-
-
+![Día 6](graficos/17_05_2020_pueblos_originarios.png)
