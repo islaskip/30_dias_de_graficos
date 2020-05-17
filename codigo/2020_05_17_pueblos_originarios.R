@@ -11,10 +11,7 @@ library(tools)
 library(tidyverse)
 library(extrafont)
 library(ggsci)
-library(sf)
 
-
-font_import(pattern = "ScholarSans75ExtraBold.ttf")
 
 pueblos_originarios <- read_excel("pueblos_originarios.xls", 
                                   sheet = "Región", skip = 2)
