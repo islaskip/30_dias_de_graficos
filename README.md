@@ -34,3 +34,9 @@ Contribuciones a la iniciativa de [@R4DS_es](https://twitter.com/R4DS_es) en con
 * [Fuente de datos](http://resultados.censo2017.cl/Home/Download) 
 
 ![Día 6](graficos/17_05_2020_pueblos_originarios.png)
+
+## Día 7: Gráfico donut
+* [Código](https://github.com/islaskip/30_dias_de_graficos/blob/master/graficos/18_05_2020_confianza_congreso.png) 
+* [Fuente de datos](http://datasets.americasbarometer.org/database/login.php) 
+
+![Día 6](graficos/18_05_2020_confianza_congreso.png)
