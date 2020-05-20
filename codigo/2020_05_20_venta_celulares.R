@@ -31,7 +31,7 @@ smartphone_bytype$...1<- as.Date(as.yearqtr(smartphone_bytype$...1, format = "Q%
 ## Gráfico
 
 smartphone_bytype %>%
-  filter(company != c("Lenovo*", "Samsung"), ...1 > "2015-10-01") %>% 
+  filter(company != c("Lenovo*", "Samsung"), ...1 > "2015-10-01") %>% ## debido a falta de datos
   ggplot(aes(...1, count, fill=company)) + 
     geom_area(alpha=0.7, size=.5, colour="white")+
   scale_fill_viridis(discrete = T) +
