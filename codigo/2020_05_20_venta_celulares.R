@@ -32,7 +32,7 @@ smartphone_bytype$...1<- as.Date(as.yearqtr(smartphone_bytype$...1, format = "Q%
 
 smartphone_bytype %>%
   filter(company != c("Lenovo*", "Samsung"), ...1 > "2015-10-01") %>% 
-  ggplot(aes(...1, count, fill=group)) + 
+  ggplot(aes(...1, count, fill=company)) + 
     geom_area(alpha=0.7, size=.5, colour="white")+
   scale_fill_viridis(discrete = T) +
     scale_x_date(breaks = date_breaks("3 months"),
