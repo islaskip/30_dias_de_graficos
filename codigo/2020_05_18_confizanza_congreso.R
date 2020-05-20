@@ -47,7 +47,7 @@ join_final %>%
   scale_fill_distiller(palette = "Spectral", trans = "reverse")+
   scale_x_discrete(limits=c("Nada","2","3","4","5","6","Mucho"))+
   labs(
-    title="Evolución de confianza al poder legislativo en Chile (2010-2019)",
+    title="Evolución de confianza hacia\n el poder legislativo en Chile (2010-2019)",
     y=element_blank(),
     x="¿Hasta qué punto tiene confianza usted en el Congreso Nacional?",
     caption="Fuente de datos: Proyecto de Opinión Pública de América Latina (LAPOP)"
@@ -59,7 +59,7 @@ join_final %>%
       plot.caption = element_text(size= 9),
       text=element_text(size=13,  family="Roboto Condensed"))
 )
-ggsave("18_05_2020_confianza_congreso.png", dpi=600)
+ggsave("18_05_2020_confianza_congreso.png", dpi=300, type = "cairo")
 
 
  
